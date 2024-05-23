@@ -1,0 +1,14 @@
+[project]
+name = "qrng_node_comfyui"
+description = "Nodes: QRNG Node CSV. A node that takes in an array of random numbers from the ANU QRNG API and stores them locally for generating quantum random number noise_seeds in ComfyUI"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/Onierous/QRNG_Node_ComfyUI"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "QRNG_Node_ComfyUI"
+Icon = ""
